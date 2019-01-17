@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3bec1f75-e3ab-4900-83a5-648fc614a57c</testCaseGuid>
+   <variable>
+      <defaultValue>'Smart Xpath'</defaultValue>
+      <description></description>
+      <id>9b797b9f-0b89-494b-b0d4-7bb03d52ef96</id>
+      <masked>false</masked>
+      <name>txtSearch</name>
+   </variable>
+</TestCaseEntity>

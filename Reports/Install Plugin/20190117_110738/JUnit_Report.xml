@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Install Plugin" time="31" tests="3" failures="0" errors="0">
+   <testsuite name="Install Plugin" tests="3" failures="0" errors="0" time="31" timestamp="2019-01-17 11:07:40" hostname="lieuhuynh - SGH512QY6D.kms.com.vn" id="Test Suites/Install Plugin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lieuhuynh\\Katalon Studio\\SignIn_InstallPlupin\\Reports\\Install Plugin\\20190117_110738"/>
+         <property name="logFiles" value="C:\\Users\\lieuhuynh\\Katalon Studio\\SignIn_InstallPlupin\\Reports\\Install Plugin\\20190117_110738\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lieuhuynh - SGH512QY6D.kms.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.37.49"/>
+         <property name="sessionId" value="26885798f08bcafb2260ce917bf77db3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Search" classname="Test Cases/Search" status="PASSED">
+         <system-out><![CDATA[2019-01-17 11:07:41 - [TEST_CASE][PASSED] - Test Cases/Search: Test Cases/Search
+
+2019-01-17 11:07:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Lauch Store"), null): Call Test Case 'Test Cases/Lauch Store' successfully
+
+2019-01-17 11:07:41 - [TEST_CASE][PASSED] - Test Cases/Lauch Store: Test Cases/Lauch Store
+
+2019-01-17 11:07:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-17 11:07:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-17 11:07:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-17 11:07:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-17 11:07:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-17 11:07:46 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-17 11:07:46 - [TEST_STEP][PASSED] - navigateToUrl("http://store-staging.katalon.com/"): Navigate to 'http://store-staging.katalon.com/' successfully
+
+2019-01-17 11:07:51 - [MESSAGE][PASSED] - Navigate to 'http://store-staging.katalon.com/' successfully
+
+2019-01-17 11:07:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Lauch Store' successfully
+
+2019-01-17 11:07:51 - [TEST_STEP][PASSED] - setText(findTestObject("PageKatalon_Search/txtSearch"), $txtSearch): Text 'Smart Xpath' is set on object 'Object Repository/PageKatalon_Search/txtSearch'
+
+2019-01-17 11:07:51 - [MESSAGE][PASSED] - Text 'Smart Xpath' is set on object 'Object Repository/PageKatalon_Search/txtSearch'
+
+2019-01-17 11:07:51 - [TEST_STEP][PASSED] - click(findTestObject("PageKatalon_Search/btnSearch")): Object: 'Object Repository/PageKatalon_Search/btnSearch' is clicked on
+
+2019-01-17 11:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PageKatalon_Search/btnSearch' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign In" classname="Test Cases/Sign In" status="PASSED">
+         <system-out><![CDATA[2019-01-17 11:07:53 - [TEST_CASE][PASSED] - Test Cases/Sign In: Test Cases/Sign In
+
+2019-01-17 11:07:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Lauch Store"), null): Call Test Case 'Test Cases/Lauch Store' successfully
+
+2019-01-17 11:07:53 - [TEST_CASE][PASSED] - Test Cases/Lauch Store: Test Cases/Lauch Store
+
+2019-01-17 11:07:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-17 11:07:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-17 11:07:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-17 11:07:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-17 11:07:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-17 11:07:57 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-17 11:07:57 - [TEST_STEP][PASSED] - navigateToUrl("http://store-staging.katalon.com/"): Navigate to 'http://store-staging.katalon.com/' successfully
+
+2019-01-17 11:08:03 - [MESSAGE][PASSED] - Navigate to 'http://store-staging.katalon.com/' successfully
+
+2019-01-17 11:08:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Lauch Store' successfully
+
+2019-01-17 11:08:03 - [TEST_STEP][PASSED] - click(findTestObject("PageKatalon_Home/Sign_In")): Object: 'Object Repository/PageKatalon_Home/Sign_In' is clicked on
+
+2019-01-17 11:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/PageKatalon_Home/Sign_In' is clicked on
+
+2019-01-17 11:08:05 - [TEST_STEP][PASSED] - setText(findTestObject("PageKatalon_Login/Email"), username): Text 'lieuhuynh@kms-technology.com' is set on object 'Object Repository/PageKatalon_Login/Email'
+
+2019-01-17 11:08:05 - [MESSAGE][PASSED] - Text 'lieuhuynh@kms-technology.com' is set on object 'Object Repository/PageKatalon_Login/Email'
+
+2019-01-17 11:08:05 - [TEST_STEP][PASSED] - setText(findTestObject("PageKatalon_Login/Password"), password): Text 'HXToan181196.' is set on object 'Object Repository/PageKatalon_Login/Password'
+
+2019-01-17 11:08:05 - [MESSAGE][PASSED] - Text 'HXToan181196.' is set on object 'Object Repository/PageKatalon_Login/Password'
+
+2019-01-17 11:08:06 - [TEST_STEP][PASSED] - click(findTestObject("PageKatalon_Login/btnSignIn")): Object: 'Object Repository/PageKatalon_Login/btnSignIn' is clicked on
+
+2019-01-17 11:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PageKatalon_Login/btnSignIn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Install Plugin" classname="Test Cases/Install Plugin" status="PASSED">
+         <system-out><![CDATA[2019-01-17 11:08:07 - [TEST_CASE][PASSED] - Test Cases/Install Plugin: Test Cases/Install Plugin
+
+2019-01-17 11:08:08 - [TEST_STEP][PASSED] - click(findTestObject("PageKatalon_Download/btnKatalonPlugin")): Object: 'Object Repository/PageKatalon_Download/btnKatalonPlugin' is clicked on
+
+2019-01-17 11:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/PageKatalon_Download/btnKatalonPlugin' is clicked on
+
+2019-01-17 11:08:09 - [TEST_STEP][PASSED] - click(findTestObject("PageKatalon_Install/btnInstall")): Object: 'Object Repository/PageKatalon_Install/btnInstall' is clicked on
+
+2019-01-17 11:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PageKatalon_Install/btnInstall' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-17 11:07:40 - [TEST_SUITE][PASSED] - Install Plugin: Test Cases/Install Plugin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

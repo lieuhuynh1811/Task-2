@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Install Plugin,Chrome 71.0.3578.98,,2019-01-17 10:24:37,2019-01-17 10:24:55,18.640s,PASSED
+,,,,,,
+Test Cases/Sign In,Chrome 71.0.3578.98,,2019-01-17 10:24:37,2019-01-17 10:24:51,13.717s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-17 10:24:37,2019-01-17 10:24:41,3.204s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-17 10:24:41,2019-01-17 10:24:42,1.139s,PASSED
+"navigateToUrl(""http://store-staging.katalon.com/"")",Chrome 71.0.3578.98,,2019-01-17 10:24:42,2019-01-17 10:24:46,4.433s,PASSED
+"click(findTestObject(""PageKatalon_Home/Sign_In""))",Chrome 71.0.3578.98,,2019-01-17 10:24:46,2019-01-17 10:24:48,2.040s,PASSED
+"setText(findTestObject(""PageKatalon_Login/Email""), ""lieuhuynh@kms-technology.com"")",Chrome 71.0.3578.98,,2019-01-17 10:24:48,2019-01-17 10:24:48,0.189s,PASSED
+"setText(findTestObject(""PageKatalon_Login/Password""), ""HXToan181196."")",Chrome 71.0.3578.98,,2019-01-17 10:24:48,2019-01-17 10:24:49,0.137s,PASSED
+"click(findTestObject(""PageKatalon_Login/btnSignIn""))",Chrome 71.0.3578.98,,2019-01-17 10:24:49,2019-01-17 10:24:51,2.208s,PASSED
+,,,,,,
+Test Cases/Install Plugin,Chrome 71.0.3578.98,,2019-01-17 10:24:51,2019-01-17 10:24:55,3.793s,PASSED
+"click(findTestObject(""PageKatalon_Download/btnKatalonPlugin""))",Chrome 71.0.3578.98,,2019-01-17 10:24:51,2019-01-17 10:24:53,1.727s,PASSED
+"click(findTestObject(""PageKatalon_Install/btnInstall""))",Chrome 71.0.3578.98,,2019-01-17 10:24:53,2019-01-17 10:24:55,1.895s,PASSED
